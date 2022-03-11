@@ -1,0 +1,29 @@
+@import './variables';
+
+
+footer {
+    background-color: $color-black;
+    margin-top: 35px;
+ #footer-container {
+    max-width: 1420px;
+    margin: auto auto;
+    section {
+        a {
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 31px;
+            color: #cccccc;
+            display: block;
+            &:hover {
+                color: $color-lightblue;
+            }
+        }
+        span {
+            float: right;
+        }
+    }
+    img {
+        margin-top: 25px;
+    }
+}
+}
+
